@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function HelloWorld(props) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(2);
 
   return (
     <div>
@@ -19,13 +19,13 @@ function HelloWorld(props) {
         Check out
         <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank" rel="noopener noreferrer">
           create-vue
-        </a>, the official Vue + Vite starter
+        </a>, aqui no dice nada
       </p>
       <p>
         Install
         <a href="https://github.com/vuejs/language-tools" target="_blank" rel="noopener noreferrer">
           Volar
-        </a> in your IDE for a better DX
+        </a> IDE MEX
       </p>
       <p className="read-the-docs">Click on the Vite and Vue logos to learn more</p>
     </div>
